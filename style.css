@@ -5,6 +5,10 @@ body {
     padding: 0;
   }
   
+  h1 {
+    font-size: 64px;
+  }
+
   h2 {
     font-size: 48px;
   }
@@ -127,6 +131,7 @@ body {
   .projects {
     background: rgba(255, 214, 150, 0.20);
     text-align: center;
+    padding: 35px 110px 65px 108px;
     margin-bottom: 272px;
   }
   
@@ -149,19 +154,19 @@ body {
     width: 246px;
     height: 180px;
     flex-shrink: 0;
-    margin: 46px;
+    margin-top: 46px;
   }
   
   .contact-me {
     background: rgba(67, 186, 253, 0.06);
     text-align: center;
+    padding: 70px 0 190px 0;
     margin-bottom: 208px;
   }
   
-  .contact-me > h2 {
-    padding-top: 35px;
+  .contact-me > h1 {
     color: #220BE8;
-    margin-bottom: 0;
+    margin: 0;
   }
   
   .contact-me > p {
@@ -237,7 +242,6 @@ body {
     width: 327px;
     height: 94px;
     flex-shrink: 0;
-    margin-bottom: 190px;
     border: none;
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
@@ -256,8 +260,8 @@ body {
   .general-information {
     display: flex;
     justify-content: space-between;
-    margin: 132px 50px 70px 23px;
-    padding-bottom: 100px;
+    margin: 0 50px 70px 23px;
+    padding: 132px 0 100px 0;
     border-bottom: solid 3px #000;
   }
 
